@@ -1,2 +1,2 @@
 #!/bin/bash
-chown_vincent_staff .sh
+find . -type f -exec chown vincent:staff {} +
